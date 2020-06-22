@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapp {
+    width: 55%;
+    height: ;
+    margin: 100px auto;
+    padding: 100px 50px 20px;
+    text-align: center;
+    background-color: thistle;
+    border-radius: 50px;
+    position: relative;
+}
+button {
+    width: 250px;
+    height: 50px;
+    font-size: 22px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(165, 0, 165);
+    color: white;
+    margin: 40px 20px 0px;
+}
+button:focus {
+    background: rgb(152,15,0);
+    outline: none;
+}
+
+.img-1, .img-2 {
+    margin: auto;
+    padding-top: 25px;
+    width: 275px;
+    height: 310px;
+}
+img {
+    width: 100%;
+}
+.img-1 img {
+    margin: 40px 0 0;
+}
+p {
+    font-size: 24px;
+}
+.img-1, .img-2 {
+    display: none;
+}
